@@ -1,10 +1,8 @@
 package com.peercode.springboot.demo.rest;
 
 
-import com.peercode.springboot.demo.dao.EmployeeDAO;
 import com.peercode.springboot.demo.entity.Employee;
 import com.peercode.springboot.demo.service.EmployeeService;
-import org.hibernate.type.descriptor.jdbc.JsonHelper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import tools.jackson.databind.json.JsonMapper;
